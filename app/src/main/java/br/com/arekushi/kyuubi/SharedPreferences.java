@@ -3,10 +3,7 @@ package br.com.arekushi.kyuubi;
 import android.annotation.SuppressLint;
 import android.content.Context;
 
-import br.com.arekushi.kyuubi.R;
-
 public class SharedPreferences {
-
     private static SharedPreferences instance;
     private android.content.SharedPreferences preferences;
     private android.content.SharedPreferences.Editor editor;

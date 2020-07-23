@@ -1,6 +1,8 @@
 package br.com.arekushi.kyuubi.view;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.widget.EditText;
@@ -12,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     EditText search;
     ToolBar bar;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setUseWideViewPort(true);
         webView.setInitialScale(1);
+        webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl("https://google.com.br");
     }
 
