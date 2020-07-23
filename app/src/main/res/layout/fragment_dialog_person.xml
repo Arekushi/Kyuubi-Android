@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="40dp">
+    
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imv_avatar_user_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_ninetails"
+        android:background="@color/colorPrimary"
+        android:padding="20dp"
+        app:civ_border_width="3dp"
+        app:civ_border_color="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/txv_user_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:breakStrategy="high_quality"
+        android:fontFamily="monospace"
+        android:justificationMode="inter_word"
+        android:text="@string/nameExample"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <TextView
+        android:id="@+id/txv_email_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:breakStrategy="high_quality"
+        android:fontFamily="monospace"
+        android:justificationMode="inter_word"
+        android:text="@string/nameExample"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/btn_close_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:text="@string/btn_back"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

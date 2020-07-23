@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/avancar"
+        android:title="@string/avancar"/>
+
+    <item
+        android:id="@+id/voltar"
+        android:title="@string/voltar"/>
+
+    <item
+        android:id="@+id/reload"
+        android:title="@string/reload"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"/>
+</menu>

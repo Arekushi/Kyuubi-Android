@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Kyuubi</string>
+
+    <!-- Shared Preferences -->
+    <string name="sharedPreferencesName">MY_SHARED_PREFERENCES</string>
+    <string name="logged">:logged</string>
+
+    <!-- Main View -->
+    <string name="edt_search_text">Pesquise algo…</string>
+
+    <!-- Login View -->
+    <string name="login_text">Primeira vez no navegador <b>Kyuubi</b>? Faça seu login utilizando sua conta do Google.</string>
+    <string name="error">Login deu errado, tente novamente</string>
+    <string name="success">Bem vindo %1$s</string>
+
+    <!-- Tool Bar -->
+    <string name="home">&#xf015;</string>
+    <string name="bars">&#xf0c9;</string>
+
+    <!-- Menu Popup -->
+    <string name="reload">Recarregar</string>
+    <string name="avancar">Avançar</string>
+    <string name="voltar">Voltar</string>
+    <string name="about">Sobre</string>
+    <string name="exit">Sair</string>
+
+    <!-- Alert Dialog - Person -->
+    <string name="nameExample">Name Example</string>
+    <string name="btn_back">Voltar</string>
+
+    <!-- Alert Dialog - About -->
+    <string name="about_text">Aplicativo desenvolvido por: Alexandre Ferreira e Giovanna de Souza</string>
+</resources>
