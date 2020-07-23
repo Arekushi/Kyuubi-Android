@@ -14,6 +14,10 @@
 ## Login Screen
 * Tela principal, com exemplos dela funcionando.
 
-| Pesquisa no Google | Menu Popup | About | User |
-| --- | --- | --- | --- |
-| <img src="https://i.imgur.com/ZZhVGfM.jpg" height="504px" width="252px"> | <img src="https://i.imgur.com/Q92XuVY.jpg" height="504px" width="252px"> | <img src="https://i.imgur.com/6l0FMyV.jpg" height="504px" width="252px"> | <img src="https://i.imgur.com/YNNpJF9.jpg" height="504px" width="252px"> |
+| Pesquisa no Google | Menu Popup |
+| --- | --- |
+| <img src="https://i.imgur.com/ZZhVGfM.jpg" height="504px" width="252px"> | <img src="https://i.imgur.com/Q92XuVY.jpg" height="504px" width="252px"> |
+
+| About | User |
+| --- | --- |
+| <img src="https://i.imgur.com/6l0FMyV.jpg" height="504px" width="252px"> | <img src="https://i.imgur.com/YNNpJF9.jpg" height="504px" width="252px"> |
